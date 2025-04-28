@@ -1,5 +1,5 @@
 # 📝 Text Summarization Tool using LLM
-**Project 16 — Python Implementation**
+**Project 16**
 
 **Course:** **420 Artificial Intelligence**  
 **Date:** **4/28/25**
@@ -105,5 +105,22 @@ The adoption of electric vehicles is accelerating as governments offer incentive
 Text 5:
 Extractive: The rise of electric vehicles is transforming the automotive industry, with major manufacturers shifting towards sustainable solutions.
 Abstractive: The rise of electric vehicles is transforming the automotive industry. Major manufacturers are shifting towards sustainable solutions. Electric vehicles are becoming more and more popular with consumers.
-
 ```
+
+---
+## 💾 **Data Structures & Functions**
+- Libraries Used:
+  - transformers for abstractive summarization (LLM).
+	- sumy for extractive summarization (TextRank algorithm).
+- Key Functions:
+	- extractive_summary(text) – Picks key sentences from the input.
+	- abstractive_summary(text) – Generates a rephrased summary using LLM.
+
+---
+
+## 📂 **Files Included**
+- summarizer.py — Main Python script.
+- inputs.txt — Contains 5 sample texts (articles/research snippets).
+- summaries.txt — Output file with generated summaries.
+- requirements.txt — Lists required Python libraries.
+- README.md — Project documentation.
