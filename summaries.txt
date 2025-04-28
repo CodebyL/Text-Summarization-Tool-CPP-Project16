@@ -1,4 +1,4 @@
 Text 1:
 Extractive: Tourism has boosted the economy of small coastal towns, bringing new businesses and employment opportunities to local communities.
-Abstractive: Tourism has boosted the economy of small coastal towns. It has brought new businesses and employment opportunities to local communities.
+Abstractive: Tourism has boosted the economy of small coastal towns, bringing new businesses and employment opportunities to local communities. Small coastal towns have seen an increase in the number of visitors to their beaches. The number of tourists has also seen a rise in the amount of accommodation available.
 --------------------------
