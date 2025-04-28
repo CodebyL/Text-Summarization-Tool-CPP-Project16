@@ -3,7 +3,7 @@ from sumy.summarizers.text_rank import TextRankSummarizer
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 
-# Load pre-trained LLM for abstractive summarization (this uses this model: facebook/bart-large-cnn model)
+# Load pre-trained LLM for abstractive summarization (this uses this model: facebook/bart-large-cnn model!)
 abstractive_summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
 # Extractive Summarization Function (uses TextRank Alg. from sumy)
