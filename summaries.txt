@@ -1,20 +1,4 @@
 Text 1:
-Extractive: Artificial Intelligence is rapidly changing industries across the world. Companies are investing heavily in AI research to stay competitive.
-Abstractive: Artificial Intelligence is rapidly changing industries across the world. Companies are investing heavily in AI research to stay competitive. The rise of AI has led to a surge in the number of companies using the technology.
---------------------------
-Text 2:
-Extractive: Climate change remains one of the biggest global challenges. Governments are working together to reduce carbon emissions and promote green energy.
-Abstractive: Climate change remains one of the biggest global challenges. Governments are working together to reduce carbon emissions and promote green energy.
---------------------------
-Text 3:
-Extractive: A new study shows that a balanced diet and regular exercise can significantly improve mental health and productivity.
-Abstractive: A balanced diet and regular exercise can significantly improve mental health and productivity. A new study shows that a balanced diet can significantly improved mental health.
---------------------------
-Text 4:
-Extractive: Advancements in healthcare technology are leading to better patient outcomes and more efficient treatments.
-Abstractive: Advancements in healthcare technology are leading to better patient outcomes and more efficient treatments, according to the World Health Organisation.
---------------------------
-Text 5:
-Extractive: The rise of electric vehicles is transforming the automotive industry, with major manufacturers shifting towards sustainable solutions.
-Abstractive: The rise of electric vehicles is transforming the automotive industry. Major manufacturers are shifting towards sustainable solutions. Electric vehicles are becoming more and more popular with consumers.
+Extractive: Tourism has boosted the economy of small coastal towns, bringing new businesses and employment opportunities to local communities.
+Abstractive: Tourism has boosted the economy of small coastal towns. It has brought new businesses and employment opportunities to local communities.
 --------------------------
