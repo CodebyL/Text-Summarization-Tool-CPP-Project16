@@ -89,7 +89,7 @@ Technological advancements in healthcare are enabling faster diagnostics and mor
 
 **Output**
 ```bash
-Text 4:
+Text 1:
 Extractive: Advancements in healthcare technology are leading to better patient outcomes and more efficient treatments.
 Abstractive: Advancements in healthcare technology are leading to better patient outcomes and more efficient treatments, according to the World Health Organisation.
 
@@ -102,9 +102,21 @@ The adoption of electric vehicles is accelerating as governments offer incentive
 
 **Output**
 ```bash
-Text 5:
+Text 1:
 Extractive: The rise of electric vehicles is transforming the automotive industry, with major manufacturers shifting towards sustainable solutions.
 Abstractive: The rise of electric vehicles is transforming the automotive industry. Major manufacturers are shifting towards sustainable solutions. Electric vehicles are becoming more and more popular with consumers.
+```
+
+### **Test 6 (longer text)**
+```bash
+The global economy has faced numerous challenges over the past decade, including financial crises, pandemics, and geopolitical tensions. These events have disrupted supply chains, increased inflation rates, and shifted the dynamics of international trade. In response, governments and central banks around the world have implemented various monetary and fiscal policies to stabilize markets and support economic recovery.
+```
+
+**Output**
+```bash
+Text 1:
+Extractive: The global economy has faced numerous challenges over the past decade, including financial crises, pandemics, and geopolitical tensions. In response, governments and central banks around the world have implemented various monetary and fiscal policies to stabilize markets and support economic recovery.
+Abstractive: The global economy has faced numerous challenges over the past decade, including financial crises, pandemics, and geopolitical tensions. These events have disrupted supply chains, increased inflation rates, and shifted the dynamics of international trade. In response, governments and central banks around the world have implemented various monetary and fiscal policies to stabilize markets.
 ```
 
 ---
