@@ -54,6 +54,9 @@ Extractive: Artificial Intelligence is rapidly changing industries across the wo
 Abstractive: Artificial Intelligence is rapidly changing industries across the world. Companies are investing heavily in AI research to stay competitive. The rise of AI has led to a surge in the number of companies using the technology.
 ```
 
+![App Screenshot](https://snipboard.io/nWrumo.jpg)
+![App Screenshot](https://snipboard.io/upySGw.jpg)
+
 ### **Test 2**
 ```txt
 Global initiatives are being launched to combat climate change and promote renewable energy sources worldwide.
@@ -66,6 +69,8 @@ Extractive: Climate change remains one of the biggest global challenges. Governm
 Abstractive: Climate change remains one of the biggest global challenges. Governments are working together to reduce carbon emissions and promote green energy.
 
 ```
+![App Screenshot](https://snipboard.io/UQsdVe.jpg)
+![App Screenshot](https://snipboard.io/PK5enV.jpg)
 
 ## 🔧 Additional Test Runs
 
