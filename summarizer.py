@@ -15,18 +15,27 @@ def extractive_summary(text):
 
 # Abstractive Summarization Function (uses LLM)
 def abstractive_summary(text):
-    result = abstractive_summarizer(text, max_length=50, min_length=25, do_sample=False)
-    return result[0]['summary_text']
+    max_chunk_size = 1000  # Safe input size for the model
+    if len(text) <= max_chunk_size:
+        summary = abstractive_summarizer(text, max_length=150, min_length=50, do_sample=False)
+        return summary[0]['summary_text']
+    else:
+        # Split long text into manageable chunks
+        chunks = [text[i:i+max_chunk_size] for i in range(0, len(text), max_chunk_size)]
+        combined_summary = ""
+        for chunk in chunks:
+            summary = abstractive_summarizer(chunk, max_length=150, min_length=50, do_sample=False)
+            combined_summary += summary[0]['summary_text'] + " "
+        return combined_summary.strip()
 
 # Read inputs and generate summaries (this is the main func. of the project)
 with open("inputs.txt", "r") as infile, open("summaries.txt", "w") as outfile:
-    texts = infile.read().split("\n\n")  # Separate texts by empty lines
-    count = 1
-    for text in texts:
-        outfile.write(f"Text {count}:\n")
-        outfile.write("Extractive: " + extractive_summary(text) + "\n")
-        outfile.write("Abstractive: " + abstractive_summary(text) + "\n")
-        outfile.write("--------------------------\n")
-        count += 1
+    texts = infile.read().split("\n\n")
+    for idx, text in enumerate(texts):
+        if text.strip():  # Skip empty blocks
+            outfile.write(f"Text {idx+1}:\n")
+            outfile.write("Extractive: " + extractive_summary(text) + "\n")
+            outfile.write("Abstractive: " + abstractive_summary(text) + "\n")
+            outfile.write("--------------------------\n")
 
 print("Summaries generated in summaries.txt")
