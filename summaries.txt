@@ -1,4 +1,20 @@
 Text 1:
-Extractive: As more business activities are being automated and an increasing number of computers are being used to store sensitive information, the need for secure computer systems becomes more apparent. However, software engineers need to be aware of the risks and security issues associated with the design, development, and deployment of network-based software.
-Abstractive: As more business activities are being automated, the need for secure computer systems becomes more apparent. The Internet itself has become critical for governments, companies, financial institutions, and millions of everyday users. Cybersecurity can be obtained only through systematic development; it can not be achieved through haphazard seat-of-the-pants methods. This paper introduces some known threats to cybersecurity, categorizes the threats, and analyzes protection mechanisms and techniques for countering the threats. Approaches to prevent, detect, and respond to cyber attacks are also discussed. ated with the design, development, and deployment of network-based software.
+Extractive: A cyber physical system (CPS) is a typical product of Industry 4.0, which plays an important role since a CPS is able to integrate the physical and virtual worlds by providing real-time data processing services [1]. More specifically, a CPS allows a physical system to be equipped with a virtual system as a monitor, enabling data collected from the physical world to be analyzed in the virtual world such that decisions can be made to affect the course of physical world.
+Abstractive: A cyber physical system (CPS) is a typical product of Industry 4.0. A CPS is able to integrate the physical and virtual worlds by providing real-time data processing services. There is a wide range of applications in modern industry based on CPSs, such as smart grids and healthcare.
+--------------------------
+Text 2:
+Extractive: A CPS consists of a physical system and a cyber system. Physical processes are usually considered as a plant that is controlled by a cyber system.
+Abstractive: A CPS consists of a physical system and a cyber system. It results from an integration of physical processing, sensing, computation, communication and control. Its general architecture is shown in Fig. 1. The physical system consists of physical processes, sensors and actuators. The cyber system includes communication networks, computing and control centers.
+--------------------------
+Text 3:
+Extractive: Sensors They are used for real-time data acquisition.
+Abstractive: Sensors are used for real-time data acquisition. They are used to monitor the movement of objects in a room. Sensors can also be used to detect objects in the air. They can also detect objects on the ground to monitor their movement.
+--------------------------
+Text 4:
+Extractive: Actuator Control commands are executed by corresponding actuators to realize desired physical actions.
+Abstractive: Control commands are executed by corresponding actuators to realize desired physical actions. Actuator control is used to control the movement of the actuators in a control system. Control commands can also be used to activate or disable actuators, for example, to turn on or turn off a motor.
+--------------------------
+Text 5:
+Extractive: Computing and Control Center It is responsible for receiving data measured by sensors. By analyzing the received data, corresponding control decisions are made by the control center to ensure that physical processes are performed correctly.
+Abstractive:  Computing and Control Center is responsible for receiving data measured by sensors. By analyzing the received data, corresponding control decisions are made by the control center to ensure that physical processes are performed correctly. It is based at the University of California, San Diego.
 --------------------------
