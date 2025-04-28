@@ -43,24 +43,24 @@ python summarizer.py
 ## 🧪 **Test Runs**
 
 ### **Test 1**
-```bash
+```txt
 Artificial Intelligence is transforming industries by automating tasks and improving decision-making processes.
 ```
 
 **Output**
-```bash
+```txt
 Text 1:
 Extractive: Artificial Intelligence is rapidly changing industries across the world. Companies are investing heavily in AI research to stay competitive.
 Abstractive: Artificial Intelligence is rapidly changing industries across the world. Companies are investing heavily in AI research to stay competitive. The rise of AI has led to a surge in the number of companies using the technology.
 ```
 
 ### **Test 2**
-```bash
+```txt
 Global initiatives are being launched to combat climate change and promote renewable energy sources worldwide.
 ```
 
 **Output**
-```bash
+```txt
 Text 2:
 Extractive: Climate change remains one of the biggest global challenges. Governments are working together to reduce carbon emissions and promote green energy.
 Abstractive: Climate change remains one of the biggest global challenges. Governments are working together to reduce carbon emissions and promote green energy.
@@ -70,12 +70,12 @@ Abstractive: Climate change remains one of the biggest global challenges. Govern
 ## 🔧 Additional Test Runs
 
 ### **Test 3**
-```bash
+```txt
 Researchers have discovered that regular exercise significantly boosts mental health and cognitive function.
 ```
 
 **Output**
-```bash
+```txt
 Text 3:
 Extractive: A new study shows that a balanced diet and regular exercise can significantly improve mental health and productivity.
 Abstractive: A balanced diet and regular exercise can significantly improve mental health and productivity. A new study shows that a balanced diet can significantly improved mental health.
@@ -83,12 +83,12 @@ Abstractive: A balanced diet and regular exercise can significantly improve ment
 ```
 
 ### **Test 4**
-```bash
+```txt
 Technological advancements in healthcare are enabling faster diagnostics and more personalized treatments for patients.
 ```
 
 **Output**
-```bash
+```txt
 Text 1:
 Extractive: Advancements in healthcare technology are leading to better patient outcomes and more efficient treatments.
 Abstractive: Advancements in healthcare technology are leading to better patient outcomes and more efficient treatments, according to the World Health Organisation.
@@ -96,24 +96,24 @@ Abstractive: Advancements in healthcare technology are leading to better patient
 ```
 
 ### **Test 5**
-```bash
+```txt
 The adoption of electric vehicles is accelerating as governments offer incentives and infrastructure improves.
 ```
 
 **Output**
-```bash
+```txt
 Text 1:
 Extractive: The rise of electric vehicles is transforming the automotive industry, with major manufacturers shifting towards sustainable solutions.
 Abstractive: The rise of electric vehicles is transforming the automotive industry. Major manufacturers are shifting towards sustainable solutions. Electric vehicles are becoming more and more popular with consumers.
 ```
 
 ### **Test 6 (longer text)**
-```bash
+```txt
 The global economy has faced numerous challenges over the past decade, including financial crises, pandemics, and geopolitical tensions. These events have disrupted supply chains, increased inflation rates, and shifted the dynamics of international trade. In response, governments and central banks around the world have implemented various monetary and fiscal policies to stabilize markets and support economic recovery.
 ```
 
 **Output**
-```bash
+```txt
 Text 1:
 Extractive: The global economy has faced numerous challenges over the past decade, including financial crises, pandemics, and geopolitical tensions. In response, governments and central banks around the world have implemented various monetary and fiscal policies to stabilize markets and support economic recovery.
 Abstractive: The global economy has faced numerous challenges over the past decade, including financial crises, pandemics, and geopolitical tensions. These events have disrupted supply chains, increased inflation rates, and shifted the dynamics of international trade. In response, governments and central banks around the world have implemented various monetary and fiscal policies to stabilize markets.
