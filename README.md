@@ -53,3 +53,57 @@ Text 1:
 Extractive: Artificial Intelligence is rapidly changing industries across the world. Companies are investing heavily in AI research to stay competitive.
 Abstractive: Artificial Intelligence is rapidly changing industries across the world. Companies are investing heavily in AI research to stay competitive. The rise of AI has led to a surge in the number of companies using the technology.
 ```
+
+### **Test 2**
+```bash
+Global initiatives are being launched to combat climate change and promote renewable energy sources worldwide.
+```
+
+**Output**
+```bash
+Text 2:
+Extractive: Climate change remains one of the biggest global challenges. Governments are working together to reduce carbon emissions and promote green energy.
+Abstractive: Climate change remains one of the biggest global challenges. Governments are working together to reduce carbon emissions and promote green energy.
+
+```
+
+## 🔧 Additional Test Runs
+
+### **Test 3**
+```bash
+Researchers have discovered that regular exercise significantly boosts mental health and cognitive function.
+```
+
+**Output**
+```bash
+Text 3:
+Extractive: A new study shows that a balanced diet and regular exercise can significantly improve mental health and productivity.
+Abstractive: A balanced diet and regular exercise can significantly improve mental health and productivity. A new study shows that a balanced diet can significantly improved mental health.
+
+```
+
+### **Test 4**
+```bash
+Technological advancements in healthcare are enabling faster diagnostics and more personalized treatments for patients.
+```
+
+**Output**
+```bash
+Text 4:
+Extractive: Advancements in healthcare technology are leading to better patient outcomes and more efficient treatments.
+Abstractive: Advancements in healthcare technology are leading to better patient outcomes and more efficient treatments, according to the World Health Organisation.
+
+```
+
+### **Test 5**
+```bash
+The adoption of electric vehicles is accelerating as governments offer incentives and infrastructure improves.
+```
+
+**Output**
+```bash
+Text 5:
+Extractive: The rise of electric vehicles is transforming the automotive industry, with major manufacturers shifting towards sustainable solutions.
+Abstractive: The rise of electric vehicles is transforming the automotive industry. Major manufacturers are shifting towards sustainable solutions. Electric vehicles are becoming more and more popular with consumers.
+
+```
